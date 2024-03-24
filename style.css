@@ -1,0 +1,65 @@
+
+body {
+  background: linear-gradient(to right, #8d8ee1, #99f2c8);
+}
+
+
+#skillsSection {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.text {
+  width: 50%;
+}
+.images {
+  width: 50%;
+}
+
+
+
+
+
+/* Skill Box Images */
+.card-img-top {
+  width: 100%; /* This will make the image take the full width of the card */
+  max-height: 200px; /* This will limit the height of the image */
+  object-fit: contain; /* This will make sure the image is resized to fit within the width and height specified */
+}
+
+
+#skillsChart {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.container.my-5 {
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  display: inline-block;
+  padding: 10px;
+  background-color: yellow;
+  color: black;
+  border-radius: 5px;
+}
+
+
+.vertical-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+
